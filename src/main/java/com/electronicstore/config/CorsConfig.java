@@ -16,7 +16,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // ✅ Allow your frontend origin (Vite default)
-        config.setAllowedOriginPatterns(List.of("http://localhost:5173", "https://electronic-store-frontend-1nz111fuk-bharanidharan-gs-projects.vercel.app"));
+        config.setAllowedOriginPatterns(List.of("http://localhost:5173", "https://electronic-store-frontend.vercel.app"));
 
         // ✅ Allow standard HTTP methods
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
